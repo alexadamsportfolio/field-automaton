@@ -1,3 +1,5 @@
+I would like to thank the article https://www.geeksforgeeks.org/dsa/conways-game-life-python-implementation/, which provided me with the foundation on which I elaborated the life.py program.
+
 Assuming that all necessary modules have been installed, life.py can be easily run with
 
 ```python3 life.py```
