@@ -9,7 +9,7 @@ However, there are 6 optional parameters that will influence the behavior of the
 - Grid Size: An integer value that establishes the number of cells are in each dimension for the 2d grid. Default is 30.
 - Interval: Specifies the interval between iterations in milliseconds. Default is 50.
 - Decay: A float value. Prior to being inputted into a distribution function, the state of a given cell is derived from the sum of all cells on the grid, where each cell is weighted by a factor of $\frac{1}{1+\delta^k}$, where $k$ is the Decay parameter, and $\delta$ is the distance in the Euclidean metric between the cells. Default is 2.
-- Threshold & Globality: Float values $a$ and $b$ respectively, such that the distribution function mapping the raw sum $\sigma$ onto the interval $(0,1)$ is $e^{-b(\sigma-a)^2}$. Defaults are 2.5 and 1 respectively.
+- Threshold & Globality: Float values $a$ and $b$ respectively, such that the distribution function mapping the raw sum $\Sigma$ onto the interval $(0,1)$ is $e^{-b(\Sigma-a)^2}$. Defaults are 2.5 and 1 respectively.
 - Liveliness: A float value between 0 and 255 that specifies how much "life" the grid is initalized with. Default is 128.
 
 Below is an example of fish.py being run with configured parameters:
