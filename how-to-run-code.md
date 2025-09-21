@@ -18,6 +18,6 @@ Below is an example of fish.py being run with configured parameters:
 
 And below is an example output of the automaton:
 
-IMAGE PLACEHOLDER
+<img width="996" height="534" alt="Screenshot 2025-09-21 4 34 06 PM" src="https://github.com/user-attachments/assets/96e0edff-4f0f-461e-ae14-988c17b09ded" />
 
 There is also a --mov-file parameter that presumably saves the animation to a file, but I've never bothered to test it.
