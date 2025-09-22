@@ -12,7 +12,7 @@ However, there are 6 optional parameters that will influence the behavior of the
 - Threshold & Globality: Float values $a$ and $b$ respectively, such that the distribution function mapping the raw sum $\Sigma$ onto the interval $(0,1)$ is $e^{-b(\Sigma-a)^2}$. Defaults are 2.5 and 1 respectively.
 - Liveliness: A float value between 0 and 255 that specifies how much "life" the grid is initalized with. Default is 128.
 
-Below is an example of fish.py being run with configured parameters:
+Below is an example of life.py being run with configured parameters:
 
 ```python3 life.py --grid-size 50 --interval 1000 --decay 4 --threshold 3 --globality 1.75 --liveliness 200```
 
