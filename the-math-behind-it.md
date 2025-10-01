@@ -7,7 +7,7 @@ Traditionally, John Conway's Game of Life takes place on a discrete 2-dimensiona
 
 Which I found to be a specific case of this more general transformation rule for certain metric spaces:
 
-$$\Omega_{n+1}(\nu)=\sigma(\int_\mathcal{M} w(\nu,\mu)\Omega_n(\mu) d\mu)  [\\mathrm{I}]$$
+$$\Omega_{n+1}(\nu)=\sigma(\int_\mathcal{M} w(\nu,\mu)\Omega_n(\mu) d\mu) \\quad [\\mathrm{I}]$$
 
 Where $\Omega_{n+1}(\nu)$ is the value on the point $\nu$ during iteration $n+1$; $\sigma: \mathbb{R} \to [0,1]$ (we are making the simplifying assumption that all values of $\Omega$ lie on the interval $[0,1]$); $\mathcal{M}$ is the metric space on which we are integrating; and $w$ is a weight function.
 
