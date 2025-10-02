@@ -12,7 +12,17 @@ Though I have neglected my research into field-automaton/life.py in favor of sin
 
 ![434f0853-602a-4439-91a2-7864411c3a79 1280x1280](https://github.com/user-attachments/assets/3172b94a-bb24-4d94-8e75-8d2ad3efcf32)
 
-PLACEHOLDER PARAGRAPH
+Starting from the lower right, we can see a transformation rule which resembles [I] from the-math-behind-it.md, with the distribution function $\sigma(x) = e^{-kx^2}$, and the weighting function $w(a,b)=\frac{1}{\delta(a,b)+1}$, where $\delta$ is the metric for $L^p$ spaces, i.e., $\delta(a,b)=|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}$ (note that life.py computes the Euclidean case where p = 2). Moving to the left, we write out our transformation rule explicitly:
+
+$$\Omega_{n+1}(x)=e^{-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2}$$
+
+Which takes us to the upper right, where I attempt to identify the support of the spatial frequency domain - as studying the automaton's harmonic behavior has been one of my primary goals for this project - by identifying the frequencies $\xi$ for which the Fourier transform with respect to $x$ is non-vanishing, namely,
+
+$$e^{2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2} = 1 \implies$$
+$$2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2 = 0 \implies$$
+$$\xi = \frac{1}{2 \pi i}k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2$$
+
+Except I made an incorrect assumption: I assumed that the amplitude on the frequency domain vanishes if the integrand is non-constant, but though this is the case for Fourier series with terms such as $e^{-2 \pi i \xi x}$ where $\xi x$ is an integer, this is not necessarily the case for non-integer values, which poses a kink in my plan to identify the support of the frequency domain.
 
 I would like to conclude this gallery with an image of me at the Texas State Capitol with fish.py and life.py, where I would present my programs to the 89th Texas Legislature for the CS4TX Code @ The Capitol Event.
 
