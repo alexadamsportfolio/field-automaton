@@ -20,7 +20,7 @@ Which takes us to the upper right, where I attempt to identify the support of th
 
 $$e^{2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2} = 1 \implies$$
 $$2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2 = 0 \implies$$
-$$\xi = \frac{1}{2 \pi i}k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2$$
+$$\xi = \frac{k}{2 \pi i}(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2$$
 
 Except I made an incorrect assumption: I assumed that the amplitude on the frequency domain vanishes if the integrand is non-constant, but though this is the case for Fourier series with terms such as $e^{-2 \pi i \xi x}$ where $\xi x$ is an integer, this is not necessarily the case for non-integer values, which poses a kink in my plan to identify the support of the frequency domain.
 
