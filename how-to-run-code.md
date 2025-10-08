@@ -14,9 +14,9 @@ However, there are 6 optional parameters that will influence the behavior of the
 
 Below is an example of life.py being run with configured parameters:
 
-```python3 life.py --grid-size 50 --interval 1000 --decay 4 --threshold 3 --globality 1.75 --liveliness 200```
+```python3 life.py --grid-size 30 --interval 5000 --decay 2 --threshold 2.5 --globality 3 --liveliness 128```
 
-And below is an example output of the automaton:
+And below is the output:
 
 <img width="996" height="534" alt="Screenshot 2025-09-21 4 34 06 PM" src="https://github.com/user-attachments/assets/96e0edff-4f0f-461e-ae14-988c17b09ded" />
 
