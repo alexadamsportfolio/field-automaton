@@ -5,7 +5,7 @@ Traditionally, John Conway's Game of Life takes place on a discrete 2-dimensiona
 - Any live cell with more than three live neighbours dies, as if by overpopulation.
 - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-Which I found to be a specific case of this more general transformation rule for certain metric spaces:
+Which, during my junior year of high school, I found to be a specific case of this more general transformation rule for certain metric spaces:
 
 $$\Omega_{n+1}(\nu)=\sigma(\int_\mathcal{M} w(\nu,\mu)\Omega_n(\mu) d\mu) \\quad [\\mathrm{I}]$$
 
