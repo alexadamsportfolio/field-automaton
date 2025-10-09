@@ -22,7 +22,7 @@ $$e^{2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x
 $$2\pi i \xi x-k(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2 = 0 \implies$$
 $$\xi = \frac{k}{2 \pi i}(\int \int_{\mathbb{R}^2} \frac{\Omega_n(x)}{|a_x^p+a_y^p-b_x^p-b_y^p|^{1/p}+1} da db)^2$$
 
-Except I made an incorrect assumption: I assumed that the amplitude on the frequency domain vanishes if the integrand is non-constant, but though this is the case for Fourier series with terms such as $e^{-2 \pi i \xi x}$ where $\xi x$ is an integer, this is not necessarily the case for non-integer values, which poses a kink in my plan to identify the support of the frequency domain.
+Except I made an incorrect assumption: I assumed that the amplitude on the frequency domain vanishes if the integrand of the Fourier transform is non-constant, but though this is the case for Fourier series with terms such as $e^{-2 \pi i \xi x}$ where $\xi x$ is an integer, this is not necessarily the case for non-integer values, which poses a kink in my plan to identify the support of the frequency domain.
 
 I would like to conclude this gallery with an image of me at the Texas State Capitol with fish.py and life.py, where I would present my programs to the 89th Texas Legislature for the CS4TX Code @ The Capitol Event.
 
