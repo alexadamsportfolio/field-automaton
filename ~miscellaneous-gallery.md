@@ -5,7 +5,7 @@ Let's begin with the first written form of the fundamental equation which descri
 
 ![IMG_20251002_101239](https://github.com/user-attachments/assets/4542e068-6436-4791-a4a4-f1815bee8998)
 
-I unwittingly stuck out my tongue, as it was really awkward trying to hold a flimsy notebook that close to the camera on a chromebook, and I thought that the notebook would conceal my face.
+I unwittingly stuck out my tongue, as it was really awkward trying to hold a flimsy notebook that close to the camera on a Chromebook, and I thought that the notebook would conceal my face.
 
 Moving on, having an excess of free time in my classes - in this case AP Macroeconomics - I often pursue my mathematical curiosities on the paper of my assignments. 
 Though I have neglected my research into field-automaton/life.py in favor of single-body-automaton/fish.py, a simpler case, below is my deepest inquisition into the mathematics of the former:
