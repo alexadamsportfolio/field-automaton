@@ -1,4 +1,4 @@
-Though the-math-behind-it.md delineates the mathematics most necessary to the behavior of this project, it would be a shame for a STEM portfolio not to have some mention of my less successful findings - after all, the end is the smallest, and arguably the most trivial, stage in mathematics.
+Though the-math-behind-it.md delineates the mathematics most necessary to the behavior of this project, it would be a shame for a STEM portfolio not to have some mention of my less successful findings - in failing to make a light bulb ten thousand times, one discovers ten thousand ways how to not make a light bulb.
 This is a gallery of the surviving minority of my incomplete, if not incorrect, attempts on the field-automaton project; but they are no less interesting.
 
 Let's begin with the first written form of the fundamental equation which describes a massive range of cellular automata - including John Conway's Game of Life and my continuous analogy for it - as is found in the-math-behind-it.md [I]:
