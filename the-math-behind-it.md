@@ -22,7 +22,7 @@ Though the formulation given in $[\\mathrm{I}]$ accomodates for a continuous spa
 
 Though I came up with field-automaton independently, I should acknowledge that I later discovered that it resembles photonics researcher Dr. Stephan Rafler's "SmoothLife" paper on lattice gases at https://arxiv.org/abs/1111.1567. Nonetheless, there remain significant differences in our approaches, such as Smoothlife using a bounded neighborhood while field-automaton uses an unbounded neighborhood whose weighted integral is finite.
 
-The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories, biophysics, thermodynamics, and the Navier-Stokes equations. Non-trivial harmonic or topological phenomena induced by the microscopic rules of the automata may provide valuable insights into the macrostates of such systems.
+The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories, biophysics, computational social science, thermodynamics, and the Navier-Stokes equations. Non-trivial harmonic or topological phenomena induced by the microscopic rules of the automata may provide valuable insights into the macrostates of such systems, thereby explaining the global behaviors that arise from local conditions.
 
 ## References
 
