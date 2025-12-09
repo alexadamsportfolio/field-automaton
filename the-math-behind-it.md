@@ -1,6 +1,6 @@
 ## Overview
 
-Traditionally, John Conway's Game of Life takes place on a discrete 2-dimensional square grid with a boolean value on each cell with the following transformation rules:
+Traditionally, John Conway's Game of Life takes place on a discrete 2-dimensional square grid with a boolean value on each cell with the following transformation rules (Gardner, 1970):
 
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 - Any live cell with two or three live neighbours lives on to the next generation.
@@ -22,10 +22,22 @@ Though the formulation given in $[\\mathrm{I}]$ accomodates for a continuous spa
 
 Though I came up with field-automaton independently, I should acknowledge that I later discovered that it resembles photonics researcher Dr. Stephan Rafler's "SmoothLife" paper on lattice gases (Rafler, 2011). Nonetheless, there remain significant differences in our approaches, such as Smoothlife using a bounded neighborhood while field-automaton uses an unbounded neighborhood whose weighted integral is finite. Rafler also provides the valuable insight of using a sigmoid function - rather than a rational function - as the transition function mapping to $[0,1]$, which I believe would be a more mathematically natural implementation moving forward. Github user duckythescientist has also implemented Rafler's model into Python (Murphy, 2018) by using a fast Fourier transform algorithm which would not only prove to be much more computationally efficient, but also further dissect the harmonic phenomena I look to study on the automaton.
 
-The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories, biophysics, computational social science, thermodynamics, and the Navier-Stokes equations. Non-trivial harmonic or topological phenomena induced by the microscopic rules of the automata may provide valuable insights into the macrostates of such systems, thereby optimizing the global behaviors that arise from local conditions.
+The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories (D'Ariano & Perinotti, 2016), biophysics (Hartl et al., 2025), computational social science (Hegselmann, 1996), thermodynamics (Ising, 1925), and the Navier-Stokes equations (Xu & Yan, 2021). The discovery of non-trivial frequency domains or (co)homology groups induced by the microscopic rules of the automata would provide indispensable insights into the macrostates of such systems, thereby optimizing the global behaviors that arise from local conditions.
 
 ## References
+
+D’Ariano, G. M., & Perinotti, P. (2016). Quantum cellular automata and free quantum field theory. Frontiers of Physics, 12(1). https://doi.org/10.1007/s11467-016-0616-z
+
+Gardner, M. (1970). The fantastic combinations of John Conway’s new solitaire game “life”. Scientific American, 223(4), 120–123.
+
+Hartl, B., Levin, M., & Pio-Lopez, L. (2025). Neural cellular automata: Applications to biology and beyond classical AI. Physics of Life Reviews, 56, 94–108. https://doi.org/10.1016/j.plrev.2025.11.010
+
+Hegselmann, Rainer. (1996). Cellular Automata in the Social Sciences. Springer EBooks, 209–233. https://doi.org/10.1007/978-94-015-8686-3_12
+
+Ising, E. (1925). Beitrag zur Theorie des Ferromagnetismus. Zeitschrift Für Physik, 31(1), 253–258. https://doi.org/10.1007/bf02980577
 
 Murphy, S. (2018). GitHub - duckythescientist/SmoothLife: Continuous Domain Game of Life in Python with Numpy. GitHub. https://github.com/duckythescientist/SmoothLife
 
 Rafler, S. (2011). Generalization of Conway’s “Game of Life” to a continuous domain - SmoothLife. ArXiv.org. https://arxiv.org/abs/1111.1567
+
+Xu, W., & Yan, G. (2021). A lattice Boltzmann model for the Navier-Stokes equation. Microprocessors and Microsystems, 104391. https://doi.org/10.1016/j.micpro.2021.104391
