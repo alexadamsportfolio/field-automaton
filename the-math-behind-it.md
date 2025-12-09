@@ -22,8 +22,10 @@ Though the formulation given in $[\\mathrm{I}]$ accomodates for a continuous spa
 
 Though I came up with field-automaton independently, I should acknowledge that I later discovered that it resembles photonics researcher Dr. Stephan Rafler's "SmoothLife" paper on lattice gases (Rafler, 2011). Nonetheless, there remain significant differences in our approaches, such as Smoothlife using a bounded neighborhood while field-automaton uses an unbounded neighborhood whose weighted integral is finite. Rafler also provides the valuable insight of using a sigmoid function - rather than a rational function - as the transition function mapping to $[0,1]$, which I believe would be a more mathematically natural implementation moving forward. Github user duckythescientist has also implemented Rafler's model into Python (Murphy, 2018) by using a fast Fourier transform algorithm which would not only prove to be much more computationally efficient, but also further dissect the harmonic phenomena I look to study on the automaton.
 
-The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories, biophysics, computational social science, thermodynamics, and the Navier-Stokes equations. Non-trivial harmonic or topological phenomena induced by the microscopic rules of the automata may provide valuable insights into the macrostates of such systems, thereby explaining the global behaviors that arise from local conditions.
+The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories, biophysics, computational social science, thermodynamics, and the Navier-Stokes equations. Non-trivial harmonic or topological phenomena induced by the microscopic rules of the automata may provide valuable insights into the macrostates of such systems, thereby optimizing the global behaviors that arise from local conditions.
 
 ## References
 
-PLACEHOLDER TEXT
+Murphy, S. (2018). GitHub - duckythescientist/SmoothLife: Continuous Domain Game of Life in Python with Numpy. GitHub. https://github.com/duckythescientist/SmoothLife
+
+Rafler, S. (2011). Generalization of Conway’s “Game of Life” to a continuous domain - SmoothLife. ArXiv.org. https://arxiv.org/abs/1111.1567
