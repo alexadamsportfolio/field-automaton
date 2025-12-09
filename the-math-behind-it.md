@@ -32,7 +32,7 @@ Gardner, M. (1970). The fantastic combinations of John Conway’s new solitaire 
 
 Hartl, B., Levin, M., & Pio-Lopez, L. (2025). Neural cellular automata: Applications to biology and beyond classical AI. Physics of Life Reviews, 56, 94–108. https://doi.org/10.1016/j.plrev.2025.11.010
 
-Hegselmann, Rainer. (1996). Cellular Automata in the Social Sciences. Springer EBooks, 209–233. https://doi.org/10.1007/978-94-015-8686-3_12
+Hegselmann, R. (1996). Cellular Automata in the Social Sciences. Springer EBooks, 209–233. https://doi.org/10.1007/978-94-015-8686-3_12
 
 Ising, E. (1925). Beitrag zur Theorie des Ferromagnetismus. Zeitschrift Für Physik, 31(1), 253–258. https://doi.org/10.1007/bf02980577
 
