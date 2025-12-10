@@ -22,7 +22,7 @@ Though the formulation given in $[\\mathrm{I}]$ accomodates for a continuous spa
 
 Though I came up with field-automaton independently, I should acknowledge that I later discovered that it resembles photonics researcher Dr. Stephan Rafler's "SmoothLife" paper on lattice gases (Rafler, 2011). Nonetheless, there remain significant differences in our approaches, such as Smoothlife using a bounded neighborhood while field-automaton uses an unbounded neighborhood whose weighted integral is finite. Github user duckythescientist has implemented Rafler's model into Python (Murphy, 2018) by using a fast Fourier transform algorithm which would not only prove to be much more computationally efficient, but also further dissect the harmonic phenomena I look to study on such automata.
 
-The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories (D'Ariano & Perinotti, 2016), biophysics (Hartl et al., 2025), computational social science (Hegselmann, 1996), thermodynamics (Ising, 1925), and the Navier-Stokes equations (Xu & Yan, 2021). The application of frequency domains from harmonic analysis or persistent de Rham-Hodge Laplacians from manifold topological deep learning would provide indispensable insights into such systems, thereby optimizing the global behaviors that arise from local conditions.
+The emergent phenomena from automata are very valuable for simulations of statistical mechanics and its applications to subjects as diverse as field theories (D'Ariano & Perinotti, 2016), biophysics (Hartl et al., 2025), computational social science (McAlpine et al., 2020), thermodynamics (Ising, 1925), and the Navier-Stokes equations (Xu & Yan, 2021). The application of frequency domains from harmonic analysis or persistent de Rham-Hodge Laplacians from manifold topological deep learning would provide indispensable insights into such systems, thereby optimizing the global behaviors that arise from local conditions.
 
 ## References
 
@@ -32,9 +32,9 @@ Gardner, M. (1970). The fantastic combinations of John Conway’s new solitaire 
 
 Hartl, B., Levin, M., & Pio-Lopez, L. (2025). Neural cellular automata: Applications to biology and beyond classical AI. Physics of Life Reviews, 56, 94–108. https://doi.org/10.1016/j.plrev.2025.11.010
 
-Hegselmann, R. (1996). Cellular Automata in the Social Sciences. Springer EBooks, 209–233. https://doi.org/10.1007/978-94-015-8686-3_12
-
 Ising, E. (1925). Beitrag zur Theorie des Ferromagnetismus. Zeitschrift Für Physik, 31(1), 253–258. https://doi.org/10.1007/bf02980577
+
+McAlpine, A., Kiss, L., Zimmerman, C., & Chalabi, Z. (2020). Agent-based modeling for migration and modern slavery research: a systematic review. Journal of Computational Social Science, 4(1), 243–332. https://doi.org/10.1007/s42001-020-00076-7
 
 Murphy, S. (2018). GitHub - duckythescientist/SmoothLife: Continuous Domain Game of Life in Python with Numpy. GitHub. https://github.com/duckythescientist/SmoothLife
 
