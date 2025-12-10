@@ -7,7 +7,7 @@ Let's begin with the first written form of the fundamental equation which descri
 
 I unwittingly stuck out my tongue, as it was really awkward trying to hold a flimsy notebook that close to the camera on a Chromebook, and I thought that the notebook would conceal my face.
 
-Moving on, having an excess of free time in my classes - in this case AP Macroeconomics - I often pursue my mathematical curiosities on the paper of my assignments. 
+Moving on, having an excess of free time in my classes - in this case AP Macroeconomics - I often pursue my mathematical curiosities on the paper of my review sheets. 
 Though I have neglected my research into field-automaton/life.py in favor of single-body-automaton/fish.py, a simpler case, below is my deepest inquisition into the mathematics of the former:
 
 ![434f0853-602a-4439-91a2-7864411c3a79 1280x1280](https://github.com/user-attachments/assets/3172b94a-bb24-4d94-8e75-8d2ad3efcf32)
